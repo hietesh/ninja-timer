@@ -1,12 +1,12 @@
 window.onload = function () {
-    var seconds = 00; 
-    var milliseconds = 00; 
-    var appendmilliseconds = document.getElementById("milliseconds")
-    var appendSeconds = document.getElementById("second")
-    var start = document.getElementById('start');
-    var stop = document.getElementById('stop');
-    var reset = document.getElementById('reset');
-    var Interval ;
+    let seconds = 00; 
+    let milliseconds = 00; 
+    let appendmilliseconds = document.getElementById("milliseconds")
+    const appendSeconds = document.getElementById("second")
+    const start = document.getElementById('start');
+    const stop = document.getElementById('stop');
+    const reset = document.getElementById('reset');
+    let Interval ;
     
     // start the timer
     start.onclick = function() {
