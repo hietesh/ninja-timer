@@ -71,3 +71,10 @@ body{
         display: block;
     } 
 }
+
+@media(max-width:768px){
+    
+    .time-app{
+        width: 85%;
+    } 
+}
